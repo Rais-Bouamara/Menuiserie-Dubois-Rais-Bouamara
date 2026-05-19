@@ -1,0 +1,52 @@
+{
+  "entreprise": "Menuiserie Bobois",
+  "propositionDeValeur": "Des créations sur mesure pour sublimer votre intérieur",
+  "texteBouton": "Demander un devis",
+  "promessesClients": [
+    "Des créations personnalisées pour s'adapter parfaitement à votre espace",
+    "Des matériaux de haute qualité pour une durabilité exceptionnelle",
+    "Un savoir-faire artisanal pour des finitions impeccables"
+  ],
+  "realisations": [
+    {
+      "titre": "Table en bois massif",
+      "description": "Cette table en bois massif a été fabriquée sur mesure pour s'harmoniser avec votre intérieur. Chaque détail, du choix du bois à la finition, est réalisé avec précision pour garantir une pièce unique et durable.",
+      "image": "https://js-dynamic-portfolio-data-makerslab-emlyon-cdweb-8f83155c64a0cc.gitlab.io/images/menuiserie/table-bois-massif.webp"
+    },
+    {
+      "titre": "Porte d'entrée sculptée",
+      "description": "Notre expertise en menuiserie se reflète dans cette porte d'entrée sculptée. Fabriquée avec des techniques traditionnelles, elle offre à votre maison une touche d'élégance et de sécurité.",
+      "image": "https://js-dynamic-portfolio-data-makerslab-emlyon-cdweb-8f83155c64a0cc.gitlab.io/images/menuiserie/porte-entree-sculptee.webp"
+    },
+    {
+      "titre": "Armoire en bois exotique",
+      "description": "L'armoire en bois exotique est un exemple de l'artisanat exceptionnel de notre menuiserie. Chaque étagère, chaque détail est pensé pour vous offrir un meuble à la fois fonctionnel et esthétique.",
+      "image": "https://js-dynamic-portfolio-data-makerslab-emlyon-cdweb-8f83155c64a0cc.gitlab.io/images/menuiserie/armoire-bois-exotique.webp"
+    },
+    {
+      "titre": "Escalier sur mesure",
+      "description": "Transformez votre espace avec un escalier sur mesure. Réalisé selon vos spécifications, il allie fonctionnalité et esthétique pour créer une pièce maîtresse dans votre intérieur.",
+      "image": "https://js-dynamic-portfolio-data-makerslab-emlyon-cdweb-8f83155c64a0cc.gitlab.io/images/menuiserie/escalier-sur-mesure.webp"
+    }
+  ],
+  "temoignages": [
+    {
+      "prenom": "Sophie",
+      "typePrestation": "Porte sur mesure",
+      "commentaire": "La Menuiserie Bobois a créé une porte d'entrée sur mesure pour ma maison. La qualité du travail est exceptionnelle, et le service a été impeccable. Je recommande vivement.",
+      "note": 5
+    },
+    {
+      "prenom": "Thomas",
+      "typePrestation": "Escalier en bois",
+      "commentaire": "Nous avons commandé un escalier sur mesure pour notre nouvelle maison. La Menuiserie Bobois a su comprendre nos besoins et le résultat est tout simplement spectaculaire.",
+      "note": 4
+    },
+    {
+      "prenom": "Lucie",
+      "typePrestation": "Table de salle à manger",
+      "commentaire": "La table en bois massif que nous avons commandée est devenue le point central de notre salle à manger. La Menuiserie Bobois a dépassé nos attentes en termes de qualité et de design.",
+      "note": 5
+    }
+  ]
+}
