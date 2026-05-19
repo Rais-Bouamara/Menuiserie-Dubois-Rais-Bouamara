@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+header{
+    padding: 15px 64px;
+    position: fixed;
+    width: 100%;
+}
+
+.bg-hero p {
+    text-shadow: 2px 2px black;
+}
+
+body{
+    font-family: "Julius Sans One", sans-serif;
+}
+
+input{
+    border-radius: 10px;
+    background-color: #292A32;
+}
+/*classe fonctionnel flexbox*/
+/*rendre flexible un parent c rendre flexible ses enfant*/
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+.space-around{
+    justify-content: space-around;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.align-center{
+    align-items: center;
+}
+
+.txtcenter{
+    text-align: center;
+}
+
+
+.container-1000{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/*classes de dimenssions*/
+
+.w-100{
+    width: 100%;
+}
+.w-60{
+    width: 60px;
+}
+
+.w-48{
+    width: 48%;
+}
+.w-45{
+    width: 45px;
+}
+.w45{
+    width: 45%;
+}
+.w-40{
+    width: 40px;
+}
+.w40{
+    width: 40%;
+}
+
+.w-50{
+    width: 50%;
+}
+
+.w-33{
+    width: 33%;
+}
+
+.w30{
+    width: 30%;
+}
+.w28{
+    width: 28%;
+}
+
+.w25{
+    width: 25%;
+}
+
+.w20{
+    width: 20%;
+}
+
+.w-16{
+    width: 16%;
+}
+.w-1{
+    width: 1px;
+}
+
+.taille-gras{
+    font-size: xx-large;
+    font-weight: 800;
+}
+.gras{
+    font-weight: bolder;
+}
+/*classe de mise en page*/
+.no-lien{
+    text-decoration: none;
+}
+.suppuce{
+    list-style-type: none;
+}
+.pad10{
+    padding: 10px 10px;
+}
+
+/*classe d'espace*/
+.mgt20{
+    margin-top: 20px;
+}
+.mgt40{
+    margin-top: 40px;
+}
+.mgt50{
+    margin-top: 50px;
+}
+.mgt60{
+    margin-top: 60px;
+}
+.mgt100{
+    margin-top: 100px;
+}
+.mgt200{
+    margin-top: 200px;
+}
+.gap20{
+    gap: 20px;
+}
+.gap40{
+    gap: 40px;
+}
+.gap80{
+    gap: 80px;
+}
+.box20{
+  margin-right: 20px;
+}
+
+/*classe de couleurs*/
+.txtwhite{
+color: white;
+}
+
+.bleu{
+color: #202940;
+}
+
+.marron{
+color: #4B4038;
+}
+
+.creme{
+color: #C9996B;
+}
+
+.bg-creme{
+    background-color: #C9996B;
+    border: solid #4B4038 2px;
+}
+
+.bg-bleu{
+    background-color: #202940;
+}
+
+.bg-hero{
+    background-image: url(asset/FondHero.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.bg-footer{
+    background-image: url(asset/FondHero.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    padding: 40px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+/* Carte et bouttons*/
+.card{
+    background-color: #4B4038;
+    padding: 5px 10px;
+    border-radius: 20px;
+
+}
+
+.btn-creme{
+    background-color:#C9996B ;
+    border-radius: 10px;
+    padding: 15px 15px;
+    display: inline-block;
+    color: white;
+    
+}
+
+/*CLASSES D'IMAGES*/
