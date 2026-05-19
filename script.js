@@ -19,7 +19,7 @@ function afficherTravaux(tableauDeTravaux) {
                 <!-- enfant -->
                 <div class="card w20">
                     <h3 class="txtcenter creme txt-ombre">${realisations.titre}</h3>
-                    <img src="${realisations.image}" alt="" width="50%" class="mgl50 br20 mgt20">
+                    <img src="${realisations.image}" alt="" width="50%" class="br20 mgt20">
                     <p class="txtwhite mgt20 dot">${realisations.description}</p>
                 </div>
                 
