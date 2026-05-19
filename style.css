@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Raleway+Dots&display=swap');
 *{
     box-sizing: border-box;
     padding: 0;
@@ -20,7 +21,7 @@ body{
 
 input{
     border-radius: 10px;
-    background-color: #292A32;
+    background-color:#4B4038;
 }
 /*classe fonctionnel flexbox*/
 /*rendre flexible un parent c rendre flexible ses enfant*/
@@ -110,6 +111,10 @@ input{
     width: 1px;
 }
 
+.h-50{
+    height: 50px;
+}
+
 .taille-gras{
     font-size: xx-large;
     font-weight: 800;
@@ -129,6 +134,12 @@ input{
 }
 
 /*classe d'espace*/
+.mgl50{
+margin-left: 50px;
+}
+.mgt10{
+    margin-top: 10px;
+}
 .mgt20{
     margin-top: 20px;
 }
@@ -165,6 +176,10 @@ input{
 color: white;
 }
 
+.txt-ombre{
+text-shadow: 2px 2px black;
+}
+
 .bleu{
 color: #202940;
 }
@@ -176,7 +191,9 @@ color: #4B4038;
 .creme{
 color: #C9996B;
 }
-
+.dot{
+    font-family: "Raleway", sans-serif;
+}
 .bg-creme{
     background-color: #C9996B;
     border: solid #4B4038 2px;
@@ -202,10 +219,14 @@ color: #C9996B;
     border-radius: 10px 10px 0px 0px;
 }
 
+.header-grad{
+    background: linear-gradient(to bottom, rgb(75,64,56,1) 0%, rgb(201,153,107,0) 100%);
+}
+
 /* Carte et bouttons*/
 .card{
     background-color: #4B4038;
-    padding: 5px 10px;
+    padding: 10px 10px;
     border-radius: 20px;
 
 }
@@ -218,5 +239,17 @@ color: #C9996B;
     color: white;
     
 }
+.btn-marron{
+    background-color: #4B4038 ;
+    border-radius: 10px;
+    padding: 15px 15px;
+    display: inline-block;
+    color: white;
+    
+}
 
 /*CLASSES D'IMAGES*/
+/*Classe d'arrondis*/
+.br2O{
+    border-radius: 20px;
+}
