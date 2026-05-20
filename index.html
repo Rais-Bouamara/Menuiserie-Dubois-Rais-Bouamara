@@ -9,8 +9,20 @@
         href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/regular/style.css" />
     <link rel="stylesheet" type="text/css"
         href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/fill/style.css" />
+
+
     <link rel="stylesheet" href="style.css">
+      <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
+
     <script src="script.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js" defer></script>
+
+  
+
+
+
+
 </head>
 
 <body>
@@ -19,19 +31,27 @@
             <img src="asset/bobois-menuisier.png" alt="" width="25%">
         </div>
         <nav class="gap20 align-center justify-center flex gap20">
-             <a class="no-lien gras txtwhite" href="#Contacts">Contacts</a>
+            <a class="no-lien gras txtwhite" href="#Contacts">Contacts</a>
             <a class="no-lien gras txtwhite" href="#Valeurs">Valeurs</a>
             <a class="no-lien gras txtwhite" href="#Réalisations">Réalisations</a>
             <a class="no-lien gras txtwhite" href="#Témoignage">Témoignage</a>
         </nav>
-        <a href="https://www.sidecare.com/generateur-devis" class="no-lien btn-creme dot" target="_blank">Demander un Devis</a>
+        <div id="boutton">
+            <!-- <a href="https://www.sidecare.com/generateur-devis" class="no-lien btn-creme dot" target="_blank">Demander un Devis</a> -->
+        </div>
+
     </header>
     <main>
-        
+
         <!-- SECTION HERO ET VALEUR -->
-        <section class="bg-hero flex align-center justify-center" id="Valeurs">
-            <h1 class="creme txtcenter taille-gras mgt100 txt-ombre">« Le savoir-faire du bois sur mesure »</h1>
-            <div class="w-100 bg-creme pad10 mgt50">
+        <section class="bg-hero flex align-center justify-center">
+            <div id="Valeurs" class="mgt20">
+                <!-- <h1 class="creme txtcenter taille-gras mgt100 txt-ombre">« Le savoir-faire du bois sur mesure »</h1> -->
+            </div>
+
+
+
+            <div class="w-100 bg-creme pad10 mgt50" id="avis">
 
                 <p class="txtwhite txtcenter">Des créations personnalisées pour s'adapter parfaitement à votre
                     espace</p>
@@ -40,17 +60,28 @@
                 <p class="txtwhite txtcenter mgt20">Un savoir-faire artisanal pour des finitions impeccables</p>
 
             </div>
+            <div id="boutton1">
+                <!-- <a href="https://www.sidecare.com/generateur-devis" class="btn-creme no-lien dot" target="_blank">Demander un Devis</a> -->
+            </div>
 
-            <a href="https://www.sidecare.com/generateur-devis" class="btn-creme no-lien dot" target="_blank">Demander un Devis</a>
+
         </section>
         <!-- SECTION REALISATION -->
-        <section class="mgt20 container-1000" id="Réalisations" >
+        <section class="mgt20 container-1000" id="Réalisations">
             <!-- parent -->
             <h2 class="creme txtcenter txt-ombre">Nos Réalisations</h2>
-            <div class="flex space-between mgt40" id="carteRealisation">
+            <div class=" mgt40 swiper mySwiper  ">
+                <div class="swiper-wrapper" id="carteRealisation">
 
-                <!-- enfant -->
-                 <!-- <div class="card w20">
+                </div>
+
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+
+            <!-- enfant -->
+            <!-- <div class="card w20">
                     <h3 class="txtcenter creme txt-ombre">Table en bois massif</h3>
                     <img src="asset/TableDeSalleAMager.webp" alt="" width="50%" class="mgl50 br20 mgt20">
                     <p class="txtwhite mgt20 dot">Cette table en bois massif a été fabriquée sur mesure pour s'harmoniser
@@ -79,11 +110,11 @@
                         pour garantir une pièce unique et durable.</p>
                 </div> 
                  -->
-               
+
             </div>
         </section>
         <!-- SECTION TEMOIGNAGE -->
-        <section class="mgt100 container-1000" id="Témoignage" >
+        <section class="mgt100 container-1000" id="Témoignage">
             <h2 class="creme txtcenter txt-ombre">Vos Témoignages</h2>
             <div class="flex space-between mgt50" id="carteTemoignage">
                 <!-- 
@@ -124,7 +155,7 @@
                     <i class="ph-fill ph-star creme"></i>
                 </div>
                 -->
-                
+
             </div>
         </section>
     </main>
@@ -148,7 +179,8 @@
                     <img src="asset/LinkedinBlanc.png" alt="" href="https://fr.linkedin.com/" target="_blank">
                 </a>
                 <a href="" class="no-lien">
-                    <img src="asset/FacebookBlanc.png" alt="" href="https://www.facebook.com/?locale=fr_FR" target="_blank">
+                    <img src="asset/FacebookBlanc.png" alt="" href="https://www.facebook.com/?locale=fr_FR"
+                        target="_blank">
                 </a>
                 <a href="" class="no-lien">
                     <img src="asset/TwitterBlanc.png" alt="" href="https://x.com/?lang=fr" target="_blank">
@@ -158,16 +190,16 @@
         <div class="flex mgt50 space-between">
             <!-- rubrique contacter nous -->
             <div class="w-33">
-                <p class="btn-marron w-48 dot txtcenter">Contact us:</p>
-                <p class="txtwhite mgt20">Email: info@positivus.com</p>
-                <p class="txtwhite mgt20">Phone: 555-567-8901</p>
-                <p class="txtwhite mgt20">Address: 1234 Main St</p>
+                <p class="btn-marron w-48 dot txtcenter">Contactez nous:</p>
+                <p class="txtwhite mgt20">Email: menuiserie_dubois@gmail.com</p>
+                <p class="txtwhite mgt20">Tel: 06/09/56/44/33</p>
+                <p class="txtwhite mgt20">Adresse: 1234 Main St</p>
                 <p class="txtwhite">Moonstone City, Stardust State 12345</p>
             </div>
             <!-- zone de l'email -->
-            <div class="flex bg-input w-50 space-between">
+            <div class="flex bg-input w-50 space-between" id="boutton2">
                 <input type="email" name="" id="" class="w-48 txtwhite h-50">
-                <a href="https://www.sidecare.com/generateur-devis" class="w-48 btn-creme h-50 txtcenter dot no-lien" target="_blank">Demander un devis</a>
+                <!-- <a href="https://www.sidecare.com/generateur-devis" class="w-48 btn-creme h-50 txtcenter dot no-lien" target="_blank">Demander un devis</a> -->
             </div>
         </div>
         <hr class="mgt50">
@@ -178,6 +210,11 @@
         </div>
 
     </footer>
+
+
+
+
+
 
 </body>
 

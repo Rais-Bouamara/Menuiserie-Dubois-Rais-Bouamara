@@ -19,6 +19,12 @@ body{
     font-family: "Julius Sans One", sans-serif;
 }
 
+    html,
+    body {
+      position: relative;
+      height: 100%;
+    }
+
 input{
     border-radius: 10px;
     background-color:#4B4038;
@@ -134,8 +140,11 @@ input{
 }
 
 /*classe d'espace*/
-.mgl42{
-margin-left: 42px;
+.mgl50{
+margin-left: 50px;
+}
+.mgl41{
+margin-left: 41px;
 }
 .mgt10{
     margin-top: 10px;
@@ -248,8 +257,30 @@ color: #C9996B;
     
 }
 
-/*CLASSES D'IMAGES*/
 /*Classe d'arrondis*/
 .br2O{
-    border-radius: 20px;
+    border-radius: 20px 20px 20px 20px;
 }
+
+/*CLASSE D'ANIMATION JS*/
+
+        .swiper {
+      width: 100%;
+      height: 100%;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #444;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
