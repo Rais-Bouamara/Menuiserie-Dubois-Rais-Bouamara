@@ -9,16 +9,13 @@
         href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/regular/style.css" />
     <link rel="stylesheet" type="text/css"
         href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/fill/style.css" />
-
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
     <link rel="stylesheet" href="style.css">
-      <!-- Link Swiper's CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
-
     <script src="script.js" defer></script>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js" defer></script>
 
-  
+
 
 
 
@@ -51,16 +48,16 @@
 
 
 
-            <div class="w-100 bg-creme pad10 mgt50" id="avis">
+            <div class="w-51 bg-creme gap10 mgt50" id="avis">
 
-                <p class="txtwhite txtcenter">Des créations personnalisées pour s'adapter parfaitement à votre
-                    espace</p>
-                <p class="txtwhite txtcenter mgt20">Des matériaux de haute qualité pour une durabilité exceptionnelle
+                <!-- <p class="txtwhite">Des créations personnalisées pour s'adapter parfaitement à votre
+                    espace</p> -->
+                <p class="txtwhite mgt20">Des matériaux de haute qualité pour une durabilité exceptionnelle
                 </p>
-                <p class="txtwhite txtcenter mgt20">Un savoir-faire artisanal pour des finitions impeccables</p>
+                <p class="txtwhite mgt20">Un savoir-faire artisanal pour des finitions impeccables</p>
 
             </div>
-            <div id="boutton1">
+            <div id="boutton1" class="w-100 mgl550">
                 <!-- <a href="https://www.sidecare.com/generateur-devis" class="btn-creme no-lien dot" target="_blank">Demander un Devis</a> -->
             </div>
 
@@ -70,15 +67,12 @@
         <section class="mgt20 container-1000" id="Réalisations">
             <!-- parent -->
             <h2 class="creme txtcenter txt-ombre">Nos Réalisations</h2>
-            <div class=" mgt40 swiper mySwiper  ">
-                <div class="swiper-wrapper" id="carteRealisation">
 
-                </div>
+            <div id="carteRealisation" class=" flex space-between mgt40" data-aos="fade-up" data-aos-duration="2000">
 
-                <div class="swiper-button-next"></div>
-                <div class="swiper-button-prev"></div>
-                <div class="swiper-pagination"></div>
             </div>
+
+
 
             <!-- enfant -->
             <!-- <div class="card w20">
@@ -116,7 +110,7 @@
         <!-- SECTION TEMOIGNAGE -->
         <section class="mgt100 container-1000" id="Témoignage">
             <h2 class="creme txtcenter txt-ombre">Vos Témoignages</h2>
-            <div class="flex space-between mgt50" id="carteTemoignage">
+            <div class="flex space-between mgt50" id="carteTemoignage" data-aos="zoom-in" data-aos-duration="2000">
                 <!-- 
                 <div class="card w-33">
                     <p class="txtwhite mgt10 txtcenter gras txt-ombre">Porte sur mesure</p>
@@ -160,7 +154,7 @@
         </section>
     </main>
     <!-- FOOTER INSPI POSITIVIRUS -->
-    <footer class="container-1000 mgt200 bg-footer" id="Contacts">
+    <footer class="container-1000 bg-footer" id="Contacts">
         <div class="space-between flex">
             <!-- logo blanc-->
             <div class="mgt20">
@@ -210,12 +204,6 @@
         </div>
 
     </footer>
-
-
-
-
-
-
 </body>
 
 </html>

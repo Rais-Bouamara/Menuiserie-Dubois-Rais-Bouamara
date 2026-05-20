@@ -17,12 +17,17 @@ header{
 
 body{
     font-family: "Julius Sans One", sans-serif;
+   background-image:  url(asset/téléchargement\ \(1\).webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+
 }
 
     html,
     body {
       position: relative;
-      height: 100%;
+      
     }
 
 input{
@@ -140,6 +145,9 @@ input{
 }
 
 /*classe d'espace*/
+.mgl550{
+margin-left: 550px;
+}
 .mgl50{
 margin-left: 50px;
 }
@@ -206,6 +214,8 @@ color: #C9996B;
 .bg-creme{
     background-color: #C9996B;
     border: solid #4B4038 2px;
+    padding: 5px 25px;
+    border-radius: 10px;
 }
 
 .bg-bleu{
@@ -213,19 +223,21 @@ color: #C9996B;
 }
 
 .bg-hero{
-    background-image: url(asset/FondHero.webp);
+    background: linear-gradient(to bottom, rgb(201,153,107,0),rgb(75,64,56,1)100%), url(asset/téléchargement.webp);
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
+    background-attachment: fixed;
+
 }
 
 .bg-footer{
     background-image: url(asset/FondHero.webp);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
     padding: 40px;
     border-radius: 10px 10px 0px 0px;
+    margin-top: 200px;
 }
 
 .header-grad{
@@ -235,7 +247,7 @@ color: #C9996B;
 /* Carte et bouttons*/
 .card{
     background-color: #4B4038;
-    padding: 10px 10px;
+    padding: 15px 25px;
     border-radius: 20px;
 
 }

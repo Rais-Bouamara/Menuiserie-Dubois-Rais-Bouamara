@@ -47,7 +47,7 @@ function AffichertexteBouton2(texteBouton) {
 //fonction qui affiche mes promesses clients avec comme parametre mes avis clients et qui retourne rien
 function AfficherPromesseClient(promesse) {
     let avisClient = `
-    <p class="txtwhite txtcenter">Des créations personnalisées pour s'adapter parfaitement à votre
+    <p class="txtwhite mgt20 txtcenter">Des créations personnalisées pour s'adapter parfaitement à votre
                     espace</p>
                 
     `
@@ -70,9 +70,9 @@ function afficherTravaux(tableauDeTravaux) {
 
                 <!-- enfant -->
             
-                <div class="swiper-slide card w20">
+                <div class=" card w20">
                 <h3 class="txtcenter creme txt-ombre">${realisations.titre}</h3>
-                    <img src="${realisations.image}" alt="" class="br20 mgt20 mgl41 br20 w-100">
+                    <img src="${realisations.image}" alt="" class="br20 mgt20  w-100">
                     <p class="txtwhite mgt20 dot">${realisations.description}</p>
                 </div>
                     
@@ -114,21 +114,6 @@ function afficherTemoignages(tableauRetourClient) {
 }
 
 
+AOS.init();
 
 
-
-var swiper = new Swiper(".mySwiper", {
-      slidesPerView: 1,
-      spaceBetween: 30,
-      keyboard: {
-        enabled: true,
-      },
-      pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-      },
-      navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
-      },
-    });
